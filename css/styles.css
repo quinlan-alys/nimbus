@@ -36,5 +36,6 @@ p {
 .btn-primary:active,
 .btn-primary:visited {
 	background-color: #EF0480 !important;
-	border: none !important;
+    border: none !important;
+    font-family: "Abel", sans-serif;
 }
