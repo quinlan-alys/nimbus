@@ -1,41 +1,40 @@
 body {
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  }
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
 
 h1,
-h2, 
-h3, 
-h4, 
+h2,
+h3,
+h4,
 h5 {
-    font-family: "Old Standard, serif";
-    text-transform: uppercase;
-    font-style: italic;
+	font-family: "Old Standard", serif;
+	text-transform: uppercase;
+	font-style: italic;
 }
 
 p {
-    font-family: "Abel";
+	font-family: "Abel", sans-serif;
 }
 
-
 .title {
-    color: #FFFFFF;
-    font-size: 8em;
+	color: #FFFFFF;
+	font-size: 8em;
 }
 
 .sub-head {
-    font-weight: 900;
-    font-size: 1.5em;
+	font-weight: 900;
+	font-size: 1.5em;
 }
 
 .hero-banner {
-    background-image: url(../img/lenny_hero.jpg);
-    height: 50vh;
+	background-image: url(../img/lenny_hero.jpg);
+	height: 50vh;
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #EF0480 !important;
-    border: none !important;
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+	background-color: #EF0480 !important;
+	border: none !important;
 }
-
-
-
